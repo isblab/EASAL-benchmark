@@ -1,26 +1,48 @@
-Loading settings from "settings.ini".
-Loading settings...
-Unable to open - "files/union_computed_desired_distances.txt"
-this->rootGraphs.size() 4
+Loading settings from settings.ini .Loading settings...
+File "Driver2data/./././././Driver2data/settings.ini" could not be opened.
+Driver2data/./././././Driver2data/this->rootGraphs.size() 12
 Thread_Main: AtlasBuilder Set up done.
 Thread_Main: Calling atlas_builder->startAtlasBuilding().
-AtlasBuilder::startAtlasBuilding: this->rootGraphs.size() = 4
-AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 0 out of 4 (node number 0)
+AtlasBuilder::startAtlasBuilding: this->rootGraphs.size() = 12
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 0 out of 12 (node number 0)
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 1 out of 12 (node number 1)
 Initialising first flip scheme
-A better configuration with 2 is found.
-Total sample count: 190
-AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 1 out of 4 (node number 2)
-AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 2 out of 4 (node number 5)
-AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 3 out of 4 (node number 6)
-Best cross links satisified: 2
-Found in 5-dim node: 2786
-Found in 4-dim node: 556
-Found in 3-dim node: 0
-Found in 2-dim node: 0
+A better configuration with 3 is found.
+Total sample count: 641
+A better configuration with 6 is found.
+Total sample count: 642
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 2 out of 12 (node number 57)
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 3 out of 12 (node number 59)
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 4 out of 12 (node number 98)
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 5 out of 12 (node number 105)
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 6 out of 12 (node number 129)
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 7 out of 12 (node number 133)
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 8 out of 12 (node number 146)
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 9 out of 12 (node number 149)
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 10 out of 12 (node number 157)
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
+AtlasBuilder::startAtlasBuilding: Started sampling rootGraph 11 out of 12 (node number 159)
+Best cross links satisified: 6
+Found in 5-dim node: 559
+Found in 4-dim node: 847
+Found in 3-dim node: 1158
+Found in 2-dim node: 166
 Found in 1-dim node: 0
 Found in 0-dim node: 0
-Total sample count: 4064
-FINISHED AtlasBuilder::startAtlasBuilding: this->rootGraphs.size() = 4
-Thread_Main: Total time cost for sampling: 6225
+Total sample count: 52437
+Best sample count: 1172
+Best config count: 2730
+FINISHED AtlasBuilder::startAtlasBuilding: this->rootGraphs.size() = 12
+Thread_Main: Total time cost for sampling: 114606
 Thread_Main: Calling this->save_loader->saveRoadMap(this->atlas).
+SaveLoader::saveMapView: Failed to create Driver2data/./././././Driver2data/RoadMap.txt
 Thread_Main: Finishes and Exits..

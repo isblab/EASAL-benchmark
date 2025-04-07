@@ -7,7 +7,7 @@ This repository contains a benchmark of hetero-dimeric complexes, with component
 
 ## **Benchmark**
 
-There are 30 cases in benchmark, varying in crosslinker type, number of crosslinks, source of crosslinks, and source of monomer structures of the constituent proteins. The benchmark cases are divided based on the source of crosslinks in `benchmark` directory. Refer to the `benchmark/simulated/README.md` and `benchmark/experimental/README.md` for details.
+There are 40 cases in benchmark, varying in crosslinker type, number of crosslinks, source of crosslinks, false positive rate, and source of monomer structures of the constituent proteins. The benchmark cases are divided based on the source of crosslinks in `benchmark` directory. Refer to the `benchmark/simulated/README.md` and `benchmark/experimental/README.md` for details. False positve simulated DSSO crosslinks were manually selected.
 
 ## **Installing and running integrative modeling softwares**
 
